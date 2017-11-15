@@ -337,7 +337,7 @@ h3.spec {
 	position: absolute;
 	width: 100%;
 	background: white;
-	opacity: .8;
+	opacity: .3;
 	height: 50px;
 	bottom: 0;
 	z-index: 2;
@@ -427,7 +427,7 @@ h3.spec {
 }
 
 #home-slider ul#slide-list li a:hover {
-	background-color: #fa6520;	
+	background-color: #FFFFFF;	
 }
 
 #home-slider ul#slide-list li.current-slide a,
@@ -647,7 +647,7 @@ nav#menu #menu-nav li a:hover {
 
 .title-page .title {
 	font-size: 48px;
-	margin: 0 0 10px 0;
+	margin: 0 0 10px 0
 }
 
 .title-page .title-description {
