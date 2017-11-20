@@ -778,6 +778,17 @@ nav#menu #menu-nav li a:hover {
 	filter: alpha(opacity=100);
 }
 
+/* ==================================================
+    projects
+================================================== */
+.container ul {
+	width: 80%;
+	margin: auto;
+}
+
+.container li {
+	line-height: 28px;
+}
 
 /* ==================================================
    About Section
