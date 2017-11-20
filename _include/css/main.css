@@ -487,15 +487,15 @@ header .sticky-nav.stuck {
 }
 
 header #logo {
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
 	float: left;
 }
 
 header #logo a {
-	background: url(../img/logo.jpg) no-repeat;
+	/*background: url(../img/logo.jpg) no-repeat;*/
 	width: 60px;
 	height: 60px;
-	text-indent: -9999px;
+	/*text-indent: -9999px;*/
 	display: block;
 	opacity: 1;
 	filter: alpha(opacity=100);
@@ -504,6 +504,11 @@ header #logo a {
 	   -moz-transition: opacity 0.25s ease-in-out 0s;
 		 -o-transition: opacity 0.25s ease-in-out 0s;
 		    transition: opacity 0.25s ease-in-out 0s;	
+}
+
+header #logo a img {
+	width: 60px;
+	height: 60px;
 }
 
 header #logo a:hover {
@@ -652,6 +657,11 @@ nav#menu #menu-nav li a:hover {
 	background-color: white;
 	padding: 30px;
 	margin-bottom: 20px;
+	margin-left: 0px;
+}
+
+@media (min-width: 1200px) {
+	.row {margin-left:0px;}
 }
 
 /* ==================================================
@@ -781,14 +791,10 @@ nav#menu #menu-nav li a:hover {
 /* ==================================================
     projects
 ================================================== */
-.container ul {
-	width: 80%;
-	margin: auto;
-}
-
 .container li {
 	line-height: 28px;
 }
+
 
 /* ==================================================
    About Section
@@ -1425,10 +1431,15 @@ footer .credits {
 	width: 70%;
 	display: inline-block;
 }
-imgProject {
-  width: 100%;
-}
+
 .imgProject {
   width: 100%;
 margin-bottom: 30px;
+}
+
+/*some ul need to be at 90% width*/
+.partialWidth {
+	width: 90%;
+	margin: auto;
+	display: block;
 }

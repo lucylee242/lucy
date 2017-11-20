@@ -62,19 +62,21 @@
             <div class="sticky-nav">
                 <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
                 <div id="logo">
-                    <a id="goUp" href="#home-slider" title="Lucy Lee | Portfolio">Lucy Lee</a>
+                    <a id="goUp" href="index.html#home-slider" title="Lucy Lee | Portfolio">
+                    	<img src="_include/img/logo.jpg">
+                    </a>
                 </div>
                 <nav id="menu">
                     <ul id="menu-nav">
                         <!--<li class="current"><a href="#home-slider">Home</a></li>-->
-                        <li class="current">
-                            <a href="index.html#work">Portfolio</a>
+                         <li class="current">
+                            <a onclick="window.location.href='index.html#work'">Portfolio</a>
                         </li>
                         <li>
-                            <a href="index.html#process">Process</a>
+                            <a onclick="window.location.href='index.html#process'">Process</a>
                         </li>
                         <li>
-                            <a href="index.html#about">About</a>
+                            <a onclick="window.location.href='index.html#about'">About</a>
                         </li>
                         <!--<li><a href="#contact">Contact</a></li>-->
                         <!--<li><a href="shortcodes.html" class="external">Shortcodes</a></li>-->
@@ -138,7 +140,7 @@
                         <p>I first conducted interviews with stakeholders of the project and learned who were the main users (mentors), their pain points with the current systems, and their motivations for tracking their interactions with their students.
                      	<br><br>
                         Then I conducted interviews with mentors, and learned that:
-                        <ul>
+                        <ul class="partialWidth">
 							<li>The current system requires them to memorize numeric codes for each of their students for confidentiality reasons, but which also creates a barrier to tracking</li>
 							<li>Mentors vary greatly in the number of students they interacted with - some mentors interacted with all of their assigned students on a weekly basis, while others had never met them</li>
                   		 </ul>
@@ -153,7 +155,7 @@
                     <div class="span12">
                         <h2>Iterative Design</h2>
                         <p>I went through multiple rounds of designs and usability testing with a digital prototype. Usability testing revealed that:
-                        <ul>
+                        <ul class="partialWidth">
 							<li>Some users may not log their interactions when they meet their mentees frequently. This causes the organization to have less accurate data about interactions.</li>
 							<li>When users send mass emails to their mentees due to busy schedules, they would still have to log a separate interaction log for each mentee. This required them to manually type in repetitive information about each student.</li>
 						</ul>
@@ -212,5 +214,36 @@
         </div>         
      
         <!-- End project Section -->         
+      <footer>
+            <p class="credits">&copy;2017 Lucy Lee<br></p>
+        </footer>
+        <!-- End Footer -->
+        <!-- Back To Top -->
+        <a id="back-to-top" href="#"><i class="font-icon-arrow-simple-up"></i></a>
+        <!-- End Back to Top -->
+        <!-- Js -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>         
+        <!-- jQuery Core -->
+        <script src="_include/js/bootstrap.min.js"></script>         
+        <!-- Bootstrap -->
+        <script src="_include/js/supersized.3.2.7.min.js"></script>         
+        <!-- Slider -->
+        <script src="_include/js/waypoints.js"></script>         
+        <!-- WayPoints -->
+        <script src="_include/js/waypoints-sticky.js"></script>         
+        <!-- Waypoints for Header -->
+        <script src="_include/js/jquery.isotope.js"></script>         
+        <!-- Isotope Filter -->
+        <script src="_include/js/jquery.fancybox.pack.js"></script>         
+        <!-- Fancybox -->
+        <script src="_include/js/jquery.fancybox-media.js"></script>         
+        <!-- Fancybox for Media -->
+        <script src="_include/js/jquery.tweet.js"></script>         
+        <!-- Tweet -->
+        <script src="_include/js/plugins.js"></script>         
+        <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+        <script src="_include/js/main.js"></script>         
+        <!-- Default JS -->
+        <!-- End Js -->    
     </body>
 </html>

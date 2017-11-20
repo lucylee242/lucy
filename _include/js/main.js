@@ -303,7 +303,7 @@ BRUSHED.scrollToTop = function(){
 	var $arrow = $('#back-to-top');
 
 	$arrow.click(function(e) {
-		$('body,html').animate({ scrollTop: "0" }, 750, 'easeOutExpo' );
+		$('body,html').animate({ scrollTop: "0" }, 500, 'easeOutExpo' );
 		e.preventDefault();
 	})
 
@@ -429,7 +429,7 @@ $(document).ready(function(){
 		showPercentage: true,
 		autoClose: true,
 		splashFunction: function() {
-			$('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
+			$('#circle').delay(100).animate({'opacity' : 1}, 250, 'linear');
 		}
 	});
 	
@@ -546,7 +546,7 @@ $('.filterItem').click(function (e) {
 */
 
 //chrome workaround for a href not working
-
+/*
  $(function() {
        $('a[href*="#"]:not([href="#"])').click(function() {
          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -561,4 +561,4 @@ $('.filterItem').click(function (e) {
          }
        });
      });
-	
+	*/
