@@ -546,7 +546,7 @@ $('.filterItem').click(function (e) {
 */
 
 //chrome workaround for a href not working
-/*
+
  $(function() {
        $('a[href*="#"]:not([href="#"])').click(function() {
          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -561,4 +561,4 @@ $('.filterItem').click(function (e) {
          }
        });
      });
-	*/
+	
