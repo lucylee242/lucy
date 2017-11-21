@@ -336,7 +336,7 @@ h3.spec {
 #home-slider #nextslide,
 #home-slider #prevslide {
 	background-image: none;
-	background-color: #26292E;
+	background-color: #fa6520;
 	display: inline-block;
 	margin: 0;
 	position: relative;
@@ -364,7 +364,7 @@ h3.spec {
 
 #home-slider #nextslide:hover,
 #home-slider #prevslide:hover {
-	background-color:#fa6520;
+	background-color:#C75019;
 }
 
 #home-slider #nextslide i,
@@ -401,7 +401,7 @@ h3.spec {
 }
 
 #home-slider ul#slide-list li a {
-	background-color: #6E7074;
+	background-color: #fa6520;
 	background-image: none;
 	width: 12px;
 	height: 12px;
@@ -417,16 +417,16 @@ h3.spec {
 }
 
 #home-slider ul#slide-list li a:hover {
-	background-color: #fa6520;	
+	background-color: #C75019;	
 }
 
 #home-slider ul#slide-list li.current-slide a,
 #home-slider ul#slide-list li.current-slide a:hover {
-	background-color:#fa6520;
+	background-color:#C75019;
 }
 
 #home-slider #nextsection {
-	background-color: #26292E;
+	background-color: #fa6520;
 	margin: 0;
 	position: relative;
 	float:right;
@@ -545,9 +545,12 @@ nav#menu #menu-nav li a {
 	text-transform: uppercase;
 }
 
-nav#menu #menu-nav li.current a,
+nav#menu #menu-nav li.current a {
+	color: #FA6520;
+}
+
 nav#menu #menu-nav li a:hover {
-	color: #fa6520;
+	color: #C75019;
 }
 
 
@@ -597,7 +600,7 @@ nav#menu #menu-nav li a:hover {
 	display: none;
 	text-align: center;
 	width: 100%;
-	background: #26292E;	
+	background: #fa6520;	
 	border-bottom: 1px solid #2F3238;
 	position: relative;
 	float: left;
@@ -705,7 +708,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .work-nav #filters li a:hover {
-	color: #FFFFFF;
+	color: #C75019;
 }
 
 .work-nav #filters li a.selected {
@@ -896,15 +899,15 @@ nav#menu #menu-nav li a:hover {
 }
 
 .social-icons li a{
-	background: #fff;
+	background: #FA6520;
 	color: #C75019;
 	font-size: 16px;
 	line-height: 1em;
 	width: 16px;
 	height: 16px;
 	
-	opacity: 0.3;
-	filter: alpha(opacity=30);
+	/*opacity: 0.3;
+	filter: alpha(opacity=30);*/
 	
 	-webkit-transition: opacity 0.1s linear 0s;	
 	   -moz-transition: opacity 0.1s linear 0s;
@@ -913,8 +916,9 @@ nav#menu #menu-nav li a:hover {
 }
 
 .social-icons li a:hover{
-	opacity: 1;
-	filter: alpha(opacity=100);
+	/*opacity: 1;
+	filter: alpha(opacity=100);*/
+	background-color: #C75019;
 }
 
 /* ==================================================
@@ -1056,7 +1060,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #ticker .tweet_list .tweet_time a:hover {
-	color: #FFFFFF;	
+	color: #C75019;	
 }
 
 
@@ -1088,8 +1092,8 @@ nav#menu #menu-nav li a:hover {
 	display: block;
 	width: 70px;
 	height: 70px;
-
-	background: #26292E;
+	color: #fff;
+	background: #FA6520;
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
@@ -1110,8 +1114,8 @@ nav#menu #menu-nav li a:hover {
 	font-size: 32px;
 	line-height: 70px;
 	
-	opacity: 0.6;
-	filter: alpha(opacity=60);
+	/*opacity: 0.6;
+	filter: alpha(opacity=60);*/
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
@@ -1127,7 +1131,7 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li:hover a,
 #social ul li.active a {
-	background-color: #fa6520;	
+	background-color: #C75019;	
 	
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
@@ -1176,7 +1180,7 @@ footer .credits {
 
 #back-to-top {
 	display: none;
-	background-color: white;
+	background-color: #FA6520;
 	margin: 0;
 	position: fixed;
 	bottom: 0;
@@ -1184,6 +1188,8 @@ footer .credits {
 	width: 50px;
 	height: 50px;
 	z-index: 99;
+	cursor: pointer;
+	opacity: .8;
 	
 	-webkit-transition: background 0.1s linear 0s;	
 	   -moz-transition: background 0.1s linear 0s;
@@ -1192,12 +1198,12 @@ footer .credits {
 }
 
 #back-to-top:hover {
-	background-color:#fa6520;
+	background-color:#C75019;
 }
 
 #back-to-top i {
 	font-size: 16px;
-	color: black;
+	color: #fff;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -1442,4 +1448,15 @@ margin-bottom: 30px;
 	width: 90%;
 	margin: auto;
 	display: block;
+}
+
+.tooltip {
+	color: white;
+}
+.tooltip > .tooltip-inner {
+	background-color: #2F3238;
+}
+
+tooltip > .tooltip-arrow {
+	background-color: #2F3238;
 }
