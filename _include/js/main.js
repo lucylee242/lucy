@@ -54,9 +54,9 @@ BRUSHED.slider = function(){
 		start_slide             :   1,			// Start slide (0 is random)
 		stop_loop				:	0,			// Pauses slideshow on last slide
 		random					: 	0,			// Randomize slide order (Ignores start slide)
-		slide_interval          :   1500,		// Length between transitions
+		slide_interval          :   3000,		// Length between transitions
 		transition              :   1, 			// 0-None, 1-Fade, 2-Slide Top, 3-Slide Right, 4-Slide Bottom, 5-Slide Left, 6-Carousel Right, 7-Carousel Left
-		transition_speed		:	900,		// Speed of transition
+		transition_speed		:	800,		// Speed of transition
 		new_window				:	1,			// Image links open in new window/tab
 		pause_hover             :   0,			// Pause slideshow on hover
 		keyboard_nav            :   1,			// Keyboard navigation on/off
@@ -77,10 +77,9 @@ BRUSHED.slider = function(){
 		thumb_links				:	1,			// Individual thumb links for each slide
 		thumbnail_navigation    :   1,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">Lucy Lee</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image02.jpg', title : '<div class="slide-content">Lucy Lee</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Lucy Lee</div>', thumb : '', url : ''}
-									],
+											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">Lucy Lee | UX Designer</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Lucy Lee | UX Designer</div>', thumb : '', url : ''}
+																	],
 									
 		// Theme Options			   
 		progress_bar			:	0,			// Timer for each slide							
