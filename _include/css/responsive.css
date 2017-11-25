@@ -55,6 +55,9 @@
 		margin-left: -20px;
 		margin-right: -20px;
 	}
+	#home-slider .slide-content {
+		font-size: 30px;
+	}
 	
 	header .sticky-nav {
 		position: relative;	
@@ -210,6 +213,9 @@
 	#home-slider {
 		margin-left: -20px;
 		margin-right: -20px;
+	}
+	#home-slider .slide-content {
+		font-size: 40px;
 	}
 	
 	#home-slider ul#slide-list {
@@ -372,6 +378,9 @@
 }
 
 @media (max-width: 320px) {
+	#home-slider .slide-content {
+		font-size: 30px;
+	}
 	#navigation-mobile li a {
 		padding: 20px 0;
 	}

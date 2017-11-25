@@ -601,7 +601,7 @@ nav#menu #menu-nav li a:hover {
 	text-align: center;
 	width: 100%;
 	background: #fa6520;	
-	border-bottom: 1px solid #2F3238;
+	/*border-bottom: 1px solid #2F3238;*/
 	position: relative;
 	float: left;
 	z-index: 9999;
@@ -609,7 +609,7 @@ nav#menu #menu-nav li a:hover {
 
 #navigation-mobile li {
 	list-style: none;
-	border-top: 1px solid #2F3238;
+	/*border-top: 1px solid #2F3238;*/
 }
 
 #navigation-mobile li a{
@@ -617,6 +617,7 @@ nav#menu #menu-nav li a:hover {
 	font-size: 16px;
 	text-transform: uppercase;
 	padding: 20px 0;
+	color: white;
 }
 
 
@@ -626,7 +627,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 .page {
-	background: #FBFBFB;
+	background: #F8F8F8;
 	padding: 60px 0;
 	position: relative;
 	z-index: 99;
@@ -1092,10 +1093,10 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li a {
 	display: block;
-	width: 70px;
-	height: 70px;
+	/*width: 70px;
+	height: 70px;*/
 	color: #fff;
-	background: #FA6520;
+	/*background: #FA6520;*/
 	
 	-webkit-transition: all 400ms ease-out 0s;	
 	   -moz-transition: all 400ms ease-out 0s;
@@ -1133,7 +1134,7 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li:hover a,
 #social ul li.active a {
-	background-color: #C75019;	
+	/*background-color: #C75019;	*/
 	
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);

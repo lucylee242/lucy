@@ -78,7 +78,8 @@ BRUSHED.slider = function(){
 		thumbnail_navigation    :   1,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
 											{image : '_include/img/slider-images/image01.jpg', title : '<div class="slide-content">Lucy Lee | UX Designer</div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Lucy Lee | UX Designer</div>', thumb : '', url : ''}
+											{image : '_include/img/slider-images/image03.jpg', title : '<div class="slide-content">Lucy Lee | UX Designer</div>', thumb : '', url : ''},
+											{image : '_include/img/slider-images/image04.jpg', title : '<div class="slide-content">Lucy Lee | UX Designer</div>', thumb : '', url : ''}
 																	],
 									
 		// Theme Options			   
@@ -422,13 +423,14 @@ $(document).ready(function(){
 	]);
 	
 	// Preload the page with jPreLoader
-	$('body').jpreLoader({
+	$('.mainBody').jpreLoader({
 		splashID: "#jSplash",
 		showSplash: true,
 		showPercentage: true,
 		autoClose: true,
+		onetimeLoad: true,
 		splashFunction: function() {
-			$('#circle').delay(100).animate({'opacity' : 1}, 250, 'linear');
+			$('#circle').delay(50).animate({'opacity' : 1}, 150, 'linear');
 		}
 	});
 	
@@ -553,7 +555,7 @@ $('.filterItem').click(function (e) {
            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
            if (target.length) {
              $('html, body').animate({
-               scrollTop: target.offset().top - 80
+               scrollTop: target.offset().top
              });
              return false;
            }
