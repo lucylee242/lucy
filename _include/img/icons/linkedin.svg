@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="linkedin" transform="translate(-4.000000, -5.000000)">
+            <g id="background">
+                <rect id="canvas_background" x="0" y="0" width="582" height="402"></rect>
+            </g>
+            <g id="Layer-1" transform="translate(4.000000, 5.000000)" fill="#FA6520">
+                <polygon id="svg_1" points="0 -7.10542736e-15 60 -7.10542736e-15 60 60 0 60"></polygon>
+            </g>
+            <g id="if_social-linkedin_216394" transform="translate(21.500000, 20.000000)" fill-rule="nonzero" fill="#FFFFFF">
+                <path d="M5.57142857,26 L0,26 L0,7 L5.57142857,7 L5.57142857,26 Z M26,26 L20.4285714,26 L20.4285714,15.8502 C20.4285714,13.2054 19.5074286,11.8887 17.6818571,11.8887 C16.2351429,11.8887 15.3177143,12.6259 14.8571429,14.1022 C14.8571429,16.5 14.8571429,26 14.8571429,26 L9.28571429,26 C9.28571429,26 9.36,8.9 9.28571429,7 L13.6834286,7 L14.0232857,10.8 L14.1384286,10.8 C15.2805714,8.9 17.1061429,7.6118 19.6095714,7.6118 C21.5131429,7.6118 23.0527143,8.1533 24.2282857,9.5137 C25.4112857,10.876 26,12.7038 26,15.2707 L26,26 Z" id="Shape"></path>
+                <circle id="Oval" cx="3" cy="3" r="3"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

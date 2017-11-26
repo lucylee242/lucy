@@ -192,6 +192,7 @@ BRUSHED.fancyBox = function(){
 
 BRUSHED.contactForm = function(){
 	$("#contact-submit").on('click',function() {
+		console.log('contact submited');
 		$contact_form = $('#contact-form');
 		
 		var fields = $contact_form.serialize();
@@ -426,7 +427,7 @@ $(document).ready(function(){
 	$('.mainBody').jpreLoader({
 		splashID: "#jSplash",
 		showSplash: true,
-		showPercentage: true,
+		showPercentage: false,
 		autoClose: true,
 		onetimeLoad: true,
 		splashFunction: function() {

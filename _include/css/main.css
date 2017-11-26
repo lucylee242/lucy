@@ -955,6 +955,7 @@ nav#menu #menu-nav li a:hover {
 
 #contact-form p {
 	margin-bottom: 1px;	
+	
 }
 
 #contact-form input,
@@ -968,8 +969,8 @@ nav#menu #menu-nav li a:hover {
 	-moz-box-shadow: none;
 	box-shadow: none;
 	
-	background: #26292E;
-    color: #FFFFFF;
+	background: #F8F8F8;
+    color: #7F8289;
     font-size: 16px;
     height: auto;
     padding: 15px;
@@ -994,7 +995,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit {
-    background: #3C3F45;
+    background: #FA6520;
     color: white;
     cursor: pointer;
     display: inline-block;
@@ -1013,13 +1014,13 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form .submit:hover {
-    background: #fa6520;
+    background: #C75019;
     color: #FFFFFF;
 }
 
 #response {
 	margin-top: 20px;
-	color: #FFFFFF;
+	color: black;
 }
 
 
